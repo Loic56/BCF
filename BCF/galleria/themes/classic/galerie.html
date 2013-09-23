@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Galleria Classic Theme</title>
+        <style>
+
+            /* Demo styles */
+            html,body{background:#222;margin:0;}
+            body{
+			border-top:4px solid #000;
+			}
+            .content{
+			color:#777;font:12px/1.4 "helvetica neue",arial,sans-serif;width:620px;margin:20px auto;
+			}
+            h1{font-size:12px;font-weight:normal;color:#ddd;margin:0;}
+            p{margin:0 0 20px}
+            a {color:#22BCB9;text-decoration:none;}
+            .cred{margin-top:20px;font-size:11px;}
+
+            /* This rule is read by Galleria to define the gallery height: */
+            #galleria{
+			margin-left:auto;
+			margin-right:auto;
+			width:900px;
+			height:800px;
+			
+			}
+
+        </style>
+
+        <!-- load jQuery -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+        <!-- load Galleria -->
+        <script src="../../galleria-1.2.9.min.js"></script>
+
+    </head>
+<body>
+    <div class="content">
+        <h1>Titre de la série de photos</h1>
+        <p> to</p>
+
+        <div id="galleria">
+            <a><img src="../../../images/photos/1.jpg"></a>
+			 <a><img src="../../../images/photos/2.jpg"></a>
+			 <a><img src="../../../images/photos/3.jpg"></a>
+			 <a><img src="../../../images/photos/4.jpg"></a>
+			 <a><img src="../../../images/photos/5.jpg"></a>
+        </div>
+
+        <p class="cred"><a href="../../../index.php">Retour vers l'accueil </a</p>
+    </div>
+
+    <script>
+
+    // Load the classic theme
+    Galleria.loadTheme('galleria.classic.min.js');
+
+    // Initialize Galleria
+    Galleria.run('#galleria');
+
+    </script>
+    </body>
+</html>

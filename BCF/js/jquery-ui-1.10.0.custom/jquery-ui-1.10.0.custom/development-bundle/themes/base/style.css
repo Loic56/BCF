@@ -1,0 +1,701 @@
+body
+{
+background-color:white;
+width:100%;
+}
+
+#body_image{
+background: none;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+width:1800px;
+margin-right:auto;
+margin-left:auto;
+border: transparent;
+padding-bottom:400px;
+}
+
+#ban_top{
+width:auto;
+height:30px;
+background-color:white;
+border:1px solid silver;
+}
+
+#ban_center{
+padding:10px;
+height:150px;
+width:auto;
+text-align:center;
+}
+
+#ban_center span{
+font-size:90px;
+color:white;
+text-shadow: 0px 0px 25px black;
+}
+
+#construct{
+font-size:40px;
+color:orange;
+font-style:italic;
+}
+
+#ban_bottom{
+width:auto;
+height:30px;
+background-color:grey;
+box-shadow: 0px 0px 30px rgba(85, 231, 255, 0.98);
+}
+
+#content{
+width:1300px;
+padding:5px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:30px;
+background-color:grey;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 50px black;
+border:transparent;
+}
+
+
+/* Accueil */
+
+#content_accueil{
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+width: 1150px;
+height:auto;
+padding:10px;
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+box-shadow: 1px 1px 12px black;
+}
+
+
+#container_principal{
+float:left;
+width:820px;
+height:auto;
+/* background-color:black; */
+padding:10px;
+
+}
+
+#container_droite{
+float:right;
+background-color:transparent;
+width:300px;
+height:1470px;
+}
+
+#compteur_visite{
+width:280px;
+height:100px;
+padding:10px;
+margin-bottom:10px;
+background-color:silver;
+border-radius:20px;
+box-shadow:
+0px 2px 2px 0px rgba(0, 0, 0, 0.5),
+0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset; 
+}
+
+#rss_badmania{
+background-color:black;
+width:300px;
+overflow : scroll;
+}
+
+.news a{
+color:white;
+}
+
+.titre_news{
+width:auto;
+padding:10px; 
+height:auto;
+margin-top:10px;
+background-color:black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 30px black;
+box-shadow: 0px 0px 30px rgba(85, 231, 255, 0.98);
+}
+
+#news{
+width:auto;
+padding:10px; 
+height:auto;
+background-color:silver;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 30px black;
+color:black;
+}
+
+
+.news{
+width:auto;
+padding:10px; 
+height:auto;
+margin-top:20px;
+background-color:silver;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 30px black;
+color:black;
+}
+
+.news fieldset p{
+font-size:15px;
+}
+
+/* creneaux horaires */
+
+
+#tabs-3 h2{
+color:#1cddda;
+}
+
+.tab_container{
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+margin-bottom:20px;
+padding:30px;
+background-color:grey;
+width:1000px;
+border:2px solid silver;
+font-size:15px;
+color:black;
+box-shadow: 0px 0px 30px black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+background-image: url(images/fonds/7.jpg); /* 9++*/
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+}
+
+
+
+/* gallerie photos */
+.vignette{
+height:50px;
+}
+
+#tab_photo{ 
+margin-top:10px;
+background-color: transparent;
+border-collapse:collapse;
+width:1000px;
+}
+
+#tab_photo td { 
+background-color:#464646;
+text-align:center;
+vertical-align:top; 
+padding:5px;
+height:40px;
+color:silver;
+background-image:radial-gradient(#4b4b4b,#333333);		
+border-bottom:1px solid #2d2d2d; /* #383838 */
+}
+
+#tab_photo th { 
+background-image:linear-gradient(#25344d, #2c6dda);
+height:40px;
+color:white;
+padding:5px;
+}
+
+
+/* gallerie photos */
+
+/* liens */
+#tab_liens { 
+margin-top:10px;
+margin-left:150px;
+width:800px;
+background-color: transparent;
+border-collapse:collapse;
+}
+
+#tab_liens td { 
+/*background-color:#464646;*/
+text-align:center;
+vertical-align:top; 
+padding:5px;
+height:40px;
+color:silver;
+/*background-image:radial-gradient(#4b4b4b,#333333);	*/
+border-bottom:1px solid #2d2d2d; /* #383838 */
+}
+
+#tab_liens th { 
+/*background-image:linear-gradient(#25344d, #2c6dda);*/
+height:40px;
+color:white;
+padding:5px;
+}
+
+
+/* contacts */
+#message{
+width:500px;
+height:200px;
+padding:10px;
+border:5px solid #a4a4a4;
+border-style:inset;
+}
+
+.bordure{
+border:3px solid #a4a4a4;
+border-style:inset;
+}
+
+#liseret{
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+margin-bottom:20px;
+padding:30px;
+background-color:grey;
+width:500px;
+border:2px solid silver;
+font-size:15px;
+color:white;
+box-shadow: 0px 0px 30px black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+}
+
+#liseret2{
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+margin-bottom:20px;
+padding:30px;
+background-color:silver;
+width:auto;
+border:2px solid silver;
+font-size:15px;
+color:black;
+box-shadow: 0px 0px 30px black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+}
+
+.legend{
+font-size:20px;
+font-weight:bold;
+color:#1cddda;
+}
+
+/* calendar */
+#calendar {
+background-color:silver;
+box-shadow: 0px 0px 30px black;
+width: 900px;
+margin: 0 auto;
+}
+
+#calendar .fc-sat,
+#calendar .fc-sun {
+background-color:#F9F9F9;
+}
+/* calendar */
+
+/* ATP */
+#atp_view{
+  border:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:850px;
+}
+
+#tournoi_view{
+  border:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:850px;
+}
+/* ATP */
+
+/* forum */
+ 
+#corps_forum
+{
+border: 1px solid black;
+width: 90%;
+margin-top: 80px;
+margin-left: 5%;
+margin-bottom: 10Opx;
+padding: 5px;
+background-color: rgb(237,224,213);
+}
+ 
+
+#footer_forum
+{
+background-image:radial-gradient(#4b4b4b,#333333);	
+width:400px;	
+height:130px;
+margin-top:25px;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+border:2px solid #2c6dda;
+color:#64dae2;
+box-shadow: 0px 0px 30px black; /*rgba(85, 231, 255, 0.98);*/
+}
+
+#footer_forum  p{
+width:900px;
+margin-left:50px;
+}
+
+.ico {width:2%}
+.titre { width:61%;}
+.nombremessages { width:2%; }
+.nombrevu { width:4%; }
+.nombresujets { width:2%; }
+.auteur { width:7%; }
+.derniermessage { width:18%;
+ }
+.derniermessage2 { width:18%;
+-webkit-border-radius: 0px 15px 0px 0px;
+-moz-border-radius: 0px 15px 0px 0px;
+border-radius: 0px 15px 0px 0px; 
+ }
+.categorie { width:92%; background-color : rgb(244,238,250); }
+.arrondi_droit{
+-webkit-border-radius: 0px 15px 0px 0px;
+-moz-border-radius: 0px 15px 0px 0px;
+border-radius: 0px 15px 0px 0px; 
+}
+.arrondi_gauche{
+-webkit-border-radius: 15px 0px 0px 0px;
+-moz-border-radius: 15px 0px 0px 0px;
+border-radius: 15px 0px 0px 0px; 
+}
+
+
+#tab_forum { 
+margin-top:10px;
+background-color: transparent;
+border-collapse:collapse;
+}
+
+#tab_forum td { 
+background-color:#464646;
+text-align:center;
+vertical-align:top; 
+padding:5px;
+height:40px;
+color:silver;
+background-image:radial-gradient(#4b4b4b,#333333);		
+border-bottom:1px solid #2d2d2d; /* #383838 */
+}
+
+#tab_forum th { 
+background-image:linear-gradient(#25344d, #2c6dda);
+height:40px;
+color:white;
+padding:5px;
+}
+
+#connect{
+padding:20px;
+margin-right:50px;
+margin-top:10px;
+width:500px;
+}
+
+label {
+display:block;
+width:150px;
+float:left;
+}
+/* forum */
+
+#footer{
+width:1280px;
+padding:10px;
+height:60px;
+margin-left:auto;
+margin-right:auto;
+margin-top:5px;
+margin-bottom:300px;
+background-image: url(images/fonds/14.jpg); 
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+border:2px solid silver;
+box-shadow: 0px 0px 30px black; /*rgba(85, 231, 255, 0.98);*/
+}
+
+#div_carte{
+height : 400px; /* IMPERATIF */ 
+width : 400px; 
+margin : auto; 
+border : 1px solid #888; 
+} 
+
+/* register */
+#content_register{
+width:1100px;
+padding:20px;
+height:auto;
+margin-left:auto;
+color:grey;
+margin-right:auto;
+margin-top:30px;
+background-color:grey;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; order:1px solid red;
+box-shadow: 0px 0px 30px black;
+border:1px solid silver;
+}
+
+#fond_register{
+/* width:1050px; */
+background-color:silver;
+font-size:15px;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px black;
+background-image: url(images/fonds/7.jpg); /* 9++*/
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+}
+
+/* register */
+#content_register_calendar{
+width:1100px;
+padding:20px;
+height:auto;
+margin-left:auto;
+color:grey;
+margin-right:auto;
+margin-top:30px;
+background-color:grey;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; order:1px solid red;
+box-shadow: 0px 0px 30px black;
+border:1px solid silver;
+}
+
+#fond_register_calendar{
+/* width:1050px; */
+background-color:silver;
+font-size:13px;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px black;
+background-image: url(images/fonds/7.jpg); /* 9++*/
+background-repeat: no-repeat; 
+background-attachment: fixed; 
+background-size: cover; 
+}
+#fond_postok{
+background-color:silver;
+color:white;
+font-size:20px;
+font-weight:bold;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px black;
+}
+
+
+
+#content_erreur{
+width:900px;
+padding:20px;
+height:auto;
+margin-left:auto;
+color:grey;
+margin-right:auto;
+margin-top:30px;
+background-color:black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 30px black;
+border:1px solid silver;
+}
+
+#fond_erreur{
+background-color:white;
+Color:#076296;
+font-size:20px;
+font-weight:bold;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px red;
+}
+
+
+
+
+.rouge{
+color:red;
+}
+
+#tab_backup{
+width:900px;
+border:px solid red;
+background-color:white;
+margin-left:auto;
+margin-right:auto;
+border:2px solid black;
+}
+
+#tab_backup td{
+height:40px;
+padding:5px;
+background-color:#cbe4e9;
+text-align:center;
+font-size:20px;
+}
+
+#content_backup{
+width:1200px;
+padding:20px;
+height:auto;
+text-align:center;
+margin-left:auto;
+color:grey;
+margin-right:auto;
+margin-top:30px;
+background-color:black;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+box-shadow: 0px 0px 30px black;
+}
+
+#fond_backup{
+background-color:silver;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px grey;
+font-size:20px;
+}
+
+
+#backup_apercu{
+background-color:silver;
+width: 500px;
+margin-top : 30px;
+margin-left:auto;
+margin-right:auto;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px rgba(85, 231, 255, 0.98);
+font-size:20px;
+display:none;
+visibility:hidden;
+}
+
+#backup_valid{
+background-color:silver;
+width: 200px;
+text-align:center;
+margin-top : 30px;
+margin-left:auto;
+margin-right:auto;
+-webkit-border-radius: 10px 11px 12px 13px;
+-moz-border-radius: 10px 11px 12px 13px;
+border-radius: 10px 11px 12px 13px; 
+padding:30px;
+box-shadow: 0px 0px 30px #1cf2df;
+font-size:20px;
+}
+
+#message_apercu{
+color:white;
+font-size:15px;
+}
+
+.bouton{
+background-color:transparent;
+}
+footer_forum
+.bouton a {
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/boutons/bouton-noir.png) no-repeat;
+color:silver;
+text-decoration:none;
+}
+
+.bouton  a:hover {
+background:url(images/boutons/bouton-noir2.png) no-repeat;
+box-shadow: 0px 0px 30px rgba(85, 231, 255, 0.98);
+}
+
+
+
+.vt_auteur
+{
+width:20%;
+background-color : rgb(244,238,250);
+}
+.vt_mess
+{
+width:75%;
+background-color : rgb(244,238,250);
+}
+
+.space{
+margin-left:5px;
+}
+
+#quote
+{
+width: 100%;
+background-color : rgb(220,220,220);
+margin-top: 2px;
+margin-bottom: 2px;
+font-family: "Comic sans MS", Arial, Verdana, serif;
+}
